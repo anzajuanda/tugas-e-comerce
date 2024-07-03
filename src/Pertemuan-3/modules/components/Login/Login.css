@@ -1,0 +1,33 @@
+.tbl{
+    background-color: gray;
+    border-radius: 30px;
+    border: none;
+    color: white;
+    width: 10rem;
+    justify-content: center;
+    margin-left: 27rem;
+}
+
+.text-center .btn{
+    color: white;
+    font-size: 14px;
+    width: 25px;
+    align-items: center;
+    margin-right: 40px;
+}
+
+.tbl:hover{
+    background-color: black;
+}
+
+.judul{
+    text-align: center;
+    font-size: 35px;
+    font-weight: bold;
+}
+
+.alert{
+    width: 50rem;
+    color: red;
+    font-weight: bolder;
+}

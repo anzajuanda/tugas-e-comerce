@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Finger+Paint&family=Poppins:wght@100&family=Rubik+Spray+Paint&display=swap');
+
+.Headatas{
+    font-family: 'Bebas Neue', sans-serif;
+
+
+}
+
+/* Header.css */
+
+.navbar {
+    background-color: #fff;
+  }
+  
+  .navbar-brand {
+    color: #000;
+    font-size: 24px;
+  }
+  
+  .navbar-toggler-icon {
+    /* Gaya ikon toggle navbar */
+  }
+  
+  .navbar-nav {
+    margin-right: 0;
+  }
+  
+  .nav-item {
+    margin-right: 10px;
+  }
+  
+  .nav-link {
+    color: #000;
+    font-size: 16px;
+  }
+  
+  .nav-link:hover {
+    color: #000;
+  }
+  
+  .text-dark {
+    color: #000;
+  }
+  
+ 
+  
+  /* Gaya untuk ikon */
+  .navbar-icon {
+    display: flex;
+    align-items: center;
+    margin-right: 5px;
+    cursor: pointer;
+  }
+  
+  .navbar-icon svg {
+    font-size: 20px;
+    margin-right: 5px;
+  }
+
+  @keyframes navbarPopUp {
+    0% {
+      transform: translateY(-100%);
+    }
+    100% {
+      transform: translateY(0);
+    }
+  }
+  
+  .navbar {
+    animation: navbarPopUp 0.5s ease forwards;
+  }
+  
+
